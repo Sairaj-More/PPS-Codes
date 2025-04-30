@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int basic salary, travel, house, gross salary;
+
+    printf("Enter basic salary");
+    scanf("%d", &basic_salary);
+
+    travel = (basic salary * 40) / 100;
+    house = (basic salary * 20) / 100;
+
+    gross salary = basic salary + travel + house
+    printf("Gross Salary = %d\n", gross salary);
+
+    return 0;
+}

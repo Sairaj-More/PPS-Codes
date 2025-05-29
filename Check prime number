@@ -1,6 +1,7 @@
 //Sairaj More //
 //24030331378013//
 //Branch - VLSI //
+//Check prime number//
 #include<stdio.h>
 int main ()
 {

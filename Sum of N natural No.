@@ -1,0 +1,17 @@
+//Sairaj More//
+//24030331378013//
+//Branch - VLSI//
+//Sum of N natural No.//
+#include <stdio.h>
+intmain()
+{
+    int n, sum = 0;
+    printf("Enter the Number");
+    scanf("%d",&n);
+    for (int i = 1; i<=n; i++)
+{          
+         sum += i ;
+    }
+    printf("sum = %d\n", sum);
+    return 0 ;
+}

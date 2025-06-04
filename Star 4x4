@@ -1,0 +1,18 @@
+//Sairaj More//
+//24030331378013//
+//Branch - VLSI//
+//Star 4x4//
+#include<stdio.h>
+int main()
+{
+    int i,j;
+    for(i=0;i<4;i++)
+    {
+        for(j=0;j<4;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}

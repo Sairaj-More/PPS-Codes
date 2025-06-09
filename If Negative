@@ -1,0 +1,20 @@
+//Sairaj More//
+//24030331378013//
+//Branch - VLSI//
+//If Negative//
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num < 0) 
+{
+        printf("The number is negative.\n");
+    }
+
+    return 0;
+}

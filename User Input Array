@@ -1,0 +1,21 @@
+//Sairaj More//
+//PRN - 24030331378013//
+//Branch - VLSI //
+//User Input Array //
+#include <stdio.h>
+int main()
+{
+    int numbers[5];  
+    printf("Enter 5 integers \n");
+    for (int i = 0; i < 5; i++)
+{
+        printf("Element %d ", i + 1);
+        scanf("%d", &numbers[i]);
+}
+    printf("\nYou entered \n");
+    for (int i = 0; i < 5; i++)
+{
+        printf("%d ", numbers[i]);
+}
+ return 0;
+}
